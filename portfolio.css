@@ -62,6 +62,7 @@ body {
     nav {
         border-radius: 20%;
     }
+
     .bio-body {
         text-align: center;
         
@@ -84,7 +85,7 @@ body {
 }
 
 .bio-header {
-    position: absolute;
+    
     align-items: center;
     margin-left: 568px;
     margin-top: 125px;
@@ -95,7 +96,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
+    
     margin-left: 480px;
     margin-top: 160px;
     color:aliceblue;
