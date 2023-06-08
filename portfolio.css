@@ -97,8 +97,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    margin-left: 480px;
+    text-align: center;
     margin-top: 160px;
     color:aliceblue;
     font-size: small;
