@@ -54,6 +54,25 @@ body {
     100%{margin-top: 0;}
 }
 
+@media (max-width: 768px) {
+    .navbar-container {
+        max-width: 100%; /* Adjust the width to 100% for smaller screens */
+        padding: 0 10px; /* Adjust the container padding */
+    }
+    nav {
+        border-radius: 20%;
+    }
+    .bio-body {
+        text-align: center;
+        
+    }
+    .line {
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+
 .img-container {
     display: flex;
     flex-direction: column;
