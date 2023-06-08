@@ -65,7 +65,8 @@ body {
 
     .bio-body {
         text-align: center;
-        
+        margin: 0 auto;
+        max-width: 80%;
     }
     .line {
         text-align: center;
