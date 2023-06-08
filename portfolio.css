@@ -1,0 +1,145 @@
+/* :root {
+ 
+} */
+
+body {
+    background-color: rgb(16, 3, 19);
+    color: white;
+    font-family: montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(images/blurry-gradient-haikei.png);
+    background-size: cover;
+}
+
+.animated-text{
+    z-index: 1;
+    color: #fff;
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    transform: translate(-30.1%,-3.8%);
+    padding: 0 80px;
+    height: 120px;
+    overflow: hidden;
+    align-content: center;
+}
+
+.line{
+    /* text-transform:uppercase; */
+    text-align:center;
+    font-size: 80px;
+    line-height: 120px;
+    font-family: 'Lobster Two', cursive;
+    color:#efff94;
+    font-weight: 700;
+    background: linear-gradient(to right, #8ae4f8, #fcfa95, #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.line:first-child{
+    animation: anim 18s infinite;
+}
+
+@keyframes anim {
+    0%{margin-top: 0;}
+    16%{margin-top: -120px;}
+    33%{margin-top: -240px;}
+    50%{margin-top: -350px;}
+    66%{margin-top: -240px;}
+    82%{margin-top: -120px;}
+    100%{margin-top: 0;}
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    position:absolute;
+    z-index: 1;
+    margin-left: 355px;
+}
+
+.bio-header {
+    position: absolute;
+    align-items: center;
+    margin-left: 568px;
+    margin-top: 125px;
+    z-index:2;
+}
+
+.bio-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 160px;
+    color:aliceblue;
+    font-size: small;
+}
+
+.split-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.landing-image-left {
+    left: -487px;
+    width:280px;
+    mask-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.5));
+}
+
+.landing-image-right {
+    right: -487px;
+    width:280px;
+    mask-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.5));
+}
+
+.title {
+    margin-left: 230px;
+}
+
+.gradient-text-login {
+background: linear-gradient(to right, #8c69d8, #ecf3f9);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-left: 350px;
+margin-top: 50px;
+z-index: 1;
+}
+
+.navbar {
+    background-color:rgba(7, 15, 61, 0.804);
+    border-radius: 20px;
+    padding: 1px;
+    
+}
+
+.navbar-container {
+    max-width: 340px;
+    margin: 0 auto;
+    
+}
+
+.nav-link.navbar-text {
+    color: white;
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-item .nav-link.active.navbar-text {
+    color: white;
+
+  }
+
+.navbar-nav {
+    justify-content:center;
+    margin-right: 20px;
+}
