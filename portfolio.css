@@ -72,6 +72,14 @@ body {
         text-align: center;
         font-size: 18px;
     }
+
+    .landing-image-left,
+    .landing-image-right {
+        left: auto;
+        right: auto;
+        width: 1%;
+        mask-image: none;
+    }
 }
 
 
